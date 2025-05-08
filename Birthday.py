@@ -5,8 +5,9 @@ st.set_page_config(page_title="Happy Birthday, My Love", layout="wide")
 
 # 🎶 Background Music (autoplay, no controls)
 # Playing background music automatically
-audio_file = open("background_music.mp3", "rb")
-st.audio(audio_file, format="audio/mp3", start_time=0)
+# Playing background music automatically from GitHub
+audio_url = "https://github.com/UrooshMaryam06/Birthday/raw/main/background_music.mp3"
+st.audio(audio_url, format="audio/mp3", start_time=0)
 
 
 
